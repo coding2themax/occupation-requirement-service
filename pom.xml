@@ -31,7 +31,7 @@
 
     <module>occupation-requirement-service</module>
 
-    <module>demo</module>
+    <module>occupation-requirement-persistance</module>
 
   </modules>
 

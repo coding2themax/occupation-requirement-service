@@ -1,9 +1,18 @@
 package com.coding2themax.career.model;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.relational.core.mapping.Column;
+import org.springframework.data.relational.core.mapping.Table;
+
+@Table(value = "occupation", schema = "career")
 public class Occupation {
 
+  @Id
+  @Column("id")
   private Long id;
+  @Column("name")
   private String name;
+  @Column("description")
   private String description;
 
   // Default constructor

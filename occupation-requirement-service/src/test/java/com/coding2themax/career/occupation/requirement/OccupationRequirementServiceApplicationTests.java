@@ -1,4 +1,4 @@
-package com.coding2themax.career.occupation_requirement_service;
+package com.coding2themax.career.occupation.requirement;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;

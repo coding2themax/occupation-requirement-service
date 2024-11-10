@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.coding2themax.career</groupId>
 	<artifactId>occupation-requirement-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>occupation-requirement-service</name>
 	<description>Demo project for Spring Boot</description>
 	<url />
@@ -42,7 +42,7 @@
 		<dependency>
 			<groupId>com.coding2themax.career</groupId>
 			<artifactId>occupation-requirement-persistance</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<version>1.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>

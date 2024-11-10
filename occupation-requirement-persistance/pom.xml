@@ -6,7 +6,7 @@
 
     <groupId>com.coding2themax.career</groupId>
     <artifactId>occupation-requirement-persistance</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>occupation-requirement-persistance</name>

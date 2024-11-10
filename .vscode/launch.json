@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-OccupationRequirementServiceApplication<occupation-requirement-service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.coding2themax.career.occupation_requirement_service.OccupationRequirementServiceApplication",
+      "projectName": "occupation-requirement-service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

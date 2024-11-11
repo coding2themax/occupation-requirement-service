@@ -1,4 +1,4 @@
-package com.coding2themax.career.model;
+package com.coding2themax.persistance.occupation.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;

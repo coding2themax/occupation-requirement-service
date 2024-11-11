@@ -1,9 +1,9 @@
-package com.coding2themax.career.repository;
+package com.coding2themax.persistance.occupation.repository;
 
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.coding2themax.career.model.Occupation;
+import com.coding2themax.persistance.occupation.model.Occupation;
 
 import reactor.core.publisher.Mono;
 

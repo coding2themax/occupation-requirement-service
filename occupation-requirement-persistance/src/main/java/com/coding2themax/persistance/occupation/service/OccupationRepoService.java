@@ -1,9 +1,10 @@
-package com.coding2themax.career.service;
+package com.coding2themax.persistance.occupation.service;
 
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-import com.coding2themax.career.model.Occupation;
-import com.coding2themax.career.repository.OccupationRepository;
+import com.coding2themax.persistance.occupation.model.Occupation;
+import com.coding2themax.persistance.occupation.repository.OccupationRepository;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

@@ -1,7 +1,5 @@
 package com.coding2themax.persistance.occupation.service;
 
-import org.springframework.stereotype.Service;
-
 import com.coding2themax.persistance.occupation.model.Occupation;
 
 import reactor.core.publisher.Flux;

@@ -24,3 +24,7 @@ hs_err_pid*
 replay_pid*
 .vscode/settings.json
 occupation-requirement-service/.env
+.env
+
+occuaption-requirement-service/target/*
+occupation-requirement-persistance/target/*

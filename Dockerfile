@@ -1,3 +1,12 @@
+FROM maven:3.8.5-openjdk-23
+
+#ADD pom.xml /
+RUN mvn verify clean
+
+ADD . /
+RUN mvn install -Dmaven.test.skip
+
+
 # Use an official OpenJDK runtime as a parent image
 FROM eclipse-temurin:23-jdk-alpine
 

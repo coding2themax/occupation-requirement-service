@@ -19,7 +19,7 @@ services:
     image: postgres:latest
     container_name: postgres
     environment:
-      POSTGRES_USER: exampleuser
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: examplepass
       POSTGRES_DB: exampledb
     ports:

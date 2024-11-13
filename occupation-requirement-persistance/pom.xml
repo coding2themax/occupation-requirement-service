@@ -12,9 +12,9 @@
     <name>occupation-requirement-persistance</name>
 
     <parent>
-        <groupId>com.example</groupId>
-        <artifactId>webapp-parent</artifactId>
-        <version>1.0.0</version>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.3.5</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
 

@@ -1,10 +1,10 @@
 spring:
   application:
     name: occupation-requirement-service
-  r2dbc:
-    url: ${DATABASE_HOST}
-    username: ${DATABASE_USERNAME}
-    password: ${DATABASE_PASSWORD}
+  #r2dbc:
+  #  url: ${DATABASE_HOST}
+  #  username: ${DATABASE_USERNAME}
+  #  password: ${DATABASE_PASSWORD}
 management:
   endpoints:
     web:

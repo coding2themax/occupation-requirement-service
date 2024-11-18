@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  occupation-service:
+    image: occupation-service:latest
+    build:
+      context: ./occupation-service
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+    depends_on:
+      - db
+
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: occupationdb
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"

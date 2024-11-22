@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.coding2themax.career.model.Occupation;
@@ -16,7 +17,8 @@ import com.coding2themax.career.service.OccupationPersistanceService;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-@RestController("/occupation")
+@RestController()
+@RequestMapping("/occupation")
 public class OccupationController {
 
   private final OccupationPersistanceService occupationService;
@@ -25,7 +27,7 @@ public class OccupationController {
     this.occupationService = occupationService;
   }
 
-  @GetMapping
+  @GetMapping("/all")
   public Flux<Occupation> getOccupations() {
     return occupationService.findAll();
   }

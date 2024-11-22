@@ -27,3 +27,4 @@ replay_pid*
 occupation-requirement-persistance/.vscode/
 .vscode/
 occupation-requirement-persistance/target/
+.env

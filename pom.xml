@@ -10,5 +10,6 @@
   <packaging>pom</packaging>
   <modules>
     <module>occupation-service</module>
+    <module>occupation-requirement-persistance</module>
   </modules>
 </project>

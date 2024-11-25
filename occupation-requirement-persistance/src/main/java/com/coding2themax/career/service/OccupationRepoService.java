@@ -3,12 +3,19 @@ package com.coding2themax.career.service;
 import org.springframework.stereotype.Service;
 
 import com.coding2themax.career.model.Occupation;
+import com.coding2themax.career.repo.OccupationRepository;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @Service
 public class OccupationRepoService implements OccupationPersistanceService {
+
+  private final OccupationRepository occupationRepository;
+
+  public OccupationRepoService(OccupationRepository occupationRepository) {
+    this.occupationRepository = occupationRepository;
+  }
 
   @Override
   public Mono<Occupation> save(Occupation occupation) {
@@ -24,10 +31,10 @@ public class OccupationRepoService implements OccupationPersistanceService {
 
   @Override
   public Flux<Occupation> findAll() {
-    // TODO Auto-generated method stub
-    throw new UnsupportedOperationException("Unimplemented method 'findAll'");
-  }
 
+    return occupationRepository.findAll();
+  }
+ 
   @Override
   public void deleteById(Long id) {
     // TODO Auto-generated method stub
